@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML,CSS" />
+    <meta name="description" content="Random google description" />
+
+
+    <link rel="icon" href="images/icon.jpg" type="image/x-icon">
+
+    <title>The Niko Relm</title>
+    <style>
+      p {
+        color: white;
+        font-style: normal;
+      }
+      h1{
+        color:white;
+      }
+      .bg-image {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      body {
+        background-image: linear-gradient(rgb(52, 68, 140), rgb(26, 34, 70));
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        background-attachment: fixed;
+      }
+      img.header {
+        display: block;
+        width: auto;
+        max-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+      }
+      div.header {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .games {
+        flex-direction: row;
+        justify-content: left;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 40px;
+        row-gap: 50px;
+        margin-left: 60px;
+      }
+      .game-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 250px;
+      }
+      .game-logo {
+        width: 100%;
+        max-width: 250px;
+        border-radius: 30px;
+      }
+      .game-button {
+        font-family: Arial;
+        width: 210px;
+        height: 29px;
+        position: relative;
+        top: -54px;
+        background-color: rgb(64, 77, 134);
+        border: none;
+        color: black;
+        border-bottom-left-radius: 29px;
+        border-bottom-right-radius: 29px;
+        padding-left: 40px;
+        padding-top: 10px;
+      }
+      .header-text {
+        text-align: center;
+        color:black;
+        font-size: 30px;
+        font-family: "Arial", serif;
+      }
+      #fileInput {
+        display: none; /* Hide the actual file input */
+      }
+      .saveButton {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="Company/about.html">About Me</a>
+    <a href="images/image.png" download>My Photo</a>
+    <a href="#section-css">CSS</a>
+    <a href="https://google.com" target="_blank">Google</a>
+    
+    <script type="text/javascript" src="/savemanager.js"></script>
+    
+    <button id="saveButton">Select File and Save</button>
+    <input type="file" id="fileInput" style="display: none;"> 
+    
+    <button id="downloadButton">Download Saves</button>
+    
+    <div><button id="saveButton">Save File Content</button></div>
+    
+
+
+
+    <div class="header">
+      <img src="images/header.png" alt="Header reading: Welcome to the best site on the DCPS network!" class="header">
+    </div>
+    
+    <div class="header-text">
+      <h2>Find Your Favorate Game!</h2>
+    </div>
+
+    <div class="games">
+      <div class="game-item">
+        <a href="/drweb/chapter1/index.html" style="text-decoration: none; height: 235px;">
+          <img src="images/chapter1.png" alt="Deltarune chapter 1 logo" class="game-logo">
+          <p class="game-button">DELTARUNE Chapter 1</p>
+        </a>
+      </div>
+
+      <div class="game-item">
+        <a href="/drweb/chapter2/index.html" style="text-decoration: none; height: 235px;">
+          <img src="images/chapter2.png" alt="Deltarune chapter 2 logo" class="game-logo">
+          <p class="game-button">DELTARUNE Chapter 2</p>
+        </a>
+      </div>
+      
+      <div class="game-item">
+        <a href="/drweb/chapter3/index.html" style="text-decoration: none; height: 235px;">
+          <img src="images/chapter3.png" alt="Deltarune chapter 3 logo" class="game-logo">
+          <p class="game-button">DELTARUNE Chapter 3</p>
+        </a>
+      </div>
+
+      <div class="game-item">
+        <a href="/drweb/chapter4/index.html" style="text-decoration: none; height: 235px;">
+          <img src="images/chapter3.png" alt="Deltarune chapter 4 logo" class="game-logo">
+          <p class="game-button">DELTARUNE Chapter 4</p>
+        </a>
+      </div>
+
+      <div class="game-item">
+        <a href="/omori-fixed/" style="text-decoration: none; height: 235px;">
+          <img src="images/omori.png" alt="Omori logo" class="game-logo">
+          <p class="game-button">Omori</p>
+        </a>
+      </div>
+
+    </div>
+  </body>
+</html>
