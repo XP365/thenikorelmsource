@@ -1,0 +1,29 @@
+h1,p,a,li {
+    text-align: center;
+    font-family: "Arial", serif;
+}
+.centered {
+    text-align: center;
+}
+div {
+    width: 60%;
+    margin-left: 20%;
+    background-position: center;>
+}
+h1 {
+    font-size: 2.5vw;
+}
+p,li {
+    font-size: 1.5vw;
+}
+li {
+    text-align: left;
+}
+
+@media screen and (max-width: 480px) {
+    div {
+        width: 100%;
+        margin-left: 0%;
+        background-position: center;>
+    }
+}

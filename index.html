@@ -1,160 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+    <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="HTML,CSS" />
     <meta name="description" content="Random google description" />
-
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <link rel="icon" href="images/icon.jpg" type="image/x-icon">
 
     <title>The Niko Relm</title>
-    <style>
-      p {
-        color: white;
-        font-style: normal;
-      }
-      h1{
-        color:white;
-      }
-      .bg-image {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-        background-attachment: fixed;
-      }
-      body {
-        background-image: linear-gradient(rgb(52, 68, 140), rgb(26, 34, 70));
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        background-attachment: fixed;
-      }
-      img.header {
-        display: block;
-        width: auto;
-        max-width: 50%;
-        margin-right: auto;
-        margin-left: auto;
-      }
-      div.header {
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-      }
-      .games {
-        flex-direction: row;
-        justify-content: left;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        gap: 40px;
-        row-gap: 50px;
-        margin-left: 60px;
-      }
-      .game-item{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 250px;
-      }
-      .game-logo {
-        width: 100%;
-        max-width: 250px;
-        border-radius: 30px;
-      }
-      .game-button {
-        font-family: Arial;
-        width: 210px;
-        height: 29px;
-        position: relative;
-        top: -54px;
-        background-color: rgb(64, 77, 134);
-        border: none;
-        color: black;
-        border-bottom-left-radius: 29px;
-        border-bottom-right-radius: 29px;
-        padding-left: 40px;
-        padding-top: 10px;
-      }
-      .header-text {
-        text-align: center;
-        color:black;
-        font-size: 30px;
-        font-family: "Arial", serif;
-      }
-      #fileInput {
-        display: none; /* Hide the actual file input */
-      }
-      .saveButton {
-        background-color: black;
-        color: white;
-      }
-    </style>
-  </head>
-  <body>
-    <a href="Company/about.html">About Me</a>
-    <a href="images/image.png" download>My Photo</a>
-    <a href="#section-css">CSS</a>
-    <a href="https://google.com" target="_blank">Google</a>
-    
-    <script type="text/javascript" src="/savemanager.js"></script>
-    
-    <button id="saveButton">Select File and Save</button>
-    <input type="file" id="fileInput" style="display: none;"> 
-    
-    <button id="downloadButton">Download Saves</button>
-    
-    <div><button id="saveButton">Save File Content</button></div>
-    
-
-
-
-    <div class="header">
-      <img src="images/header.png" alt="Header reading: Welcome to the best site on the DCPS network!" class="header">
+</head>
+<body>
+    <div>
+        <h1>Welcome to the Niko Relm!</h1>
+        <p style="text-align: center;">This is Nixy's personal site where she just hangs out and has fun. I hope you enjoy!</p>
+        <p><a href="#cominfo">Jump To Mod Commission Info</a></p>
     </div>
-    
-    <div class="header-text">
-      <h2>Find Your Favorate Game!</h2>
+    <div>
+        <h1>About Me</h1>
+        <p style="text-align: center;"><a href="/about-me/">Click here to see the page about me!</a></p>
     </div>
-
-    <div class="games">
-      <div class="game-item">
-        <a href="/drweb/chapter1/index.html" style="text-decoration: none; height: 235px;">
-          <img src="images/chapter1.png" alt="Deltarune chapter 1 logo" class="game-logo">
-          <p class="game-button">DELTARUNE Chapter 1</p>
-        </a>
-      </div>
-
-      <div class="game-item">
-        <a href="/drweb/chapter2/index.html" style="text-decoration: none; height: 235px;">
-          <img src="images/chapter2.png" alt="Deltarune chapter 2 logo" class="game-logo">
-          <p class="game-button">DELTARUNE Chapter 2</p>
-        </a>
-      </div>
-      
-      <div class="game-item">
-        <a href="/drweb/chapter3/index.html" style="text-decoration: none; height: 235px;">
-          <img src="images/chapter3.png" alt="Deltarune chapter 3 logo" class="game-logo">
-          <p class="game-button">DELTARUNE Chapter 3</p>
-        </a>
-      </div>
-
-      <div class="game-item">
-        <a href="/drweb/chapter4/index.html" style="text-decoration: none; height: 235px;">
-          <img src="images/chapter3.png" alt="Deltarune chapter 4 logo" class="game-logo">
-          <p class="game-button">DELTARUNE Chapter 4</p>
-        </a>
-      </div>
-
-      <div class="game-item">
-        <a href="/omori-fixed/" style="text-decoration: none; height: 235px;">
-          <img src="images/omori.png" alt="Omori logo" class="game-logo">
-          <p class="game-button">Omori</p>
-        </a>
-      </div>
-
+    <div style="background-image: url('images/writing.jpg'); background-size: 100%;">
+        <h1 style="color: wheat;">Writing</h1>
+        <p style="text-align: center; color: wheat;">This area will contain links to writing I do. There isnt anything yet.</p>
     </div>
-  </body>
+    <div style="background-image: url('images/images.webp'); background-size: 2000px; padding-bottom: 5px;">
+        <h1 style="color: wheat;"> Mods</h1>
+        <p style="color: wheat; text-align: center;">Here are various mods I have worked on!</p>
+        <p class="centered" style="color: wheat;">Onetale (Niko In Undertale): <a href="https://gamebanana.com/mods/515251">Gamebananna</a> <a href="https://gamejolt.com/games/Onetale/726821">GameJolt</a></p>
+        <p class="centered" style="color: wheat;">Deltarune Master Mode: <a href="https://gamebanana.com/mods/520678">Gamebananna</a> <a href="https://gamejolt.com/games/DRMM/964674">GameJolt</a></p>
+        <p class="centered" style="color: wheat;">An Ordinary Undertale Mod: <a href="https://gamebanana.com/wips/90298">Gamebananna</a> <a href="https://gamejolt.com/games/AOUTM/969783">GameJolt</a></p>
+        <p class="centered" style="color: wheat;">FallenBot: <a href="https://gamebanana.com/wips/90394">Gamebananna</a> <a href="https://gamejolt.com/games/Fallenbot/964684">GameJolt</a></p>
+        <p class="centered" style="color: wheat;">8 Modders, No Communication (Commission for Melongod): <a href="https://www.youtube.com/watch?v=DREj3NFPPPQ">Melongod Video</a></p>
+        <p class="centered" style="color: wheat;">MelonTale (8 Modders No Communication pt 2): No Video has been released yet.</p>
+        <p class="centered" style="color: wheat;">True New Game+: <a href="https://gamebanana.com/mods/570270">Gamebananna</a></p>
+    </div>
+    <div style="background-image: url('images/programming.webp'); background-size: 800px; padding-bottom: 5px;" id="cominfo">
+        <h1 style="color: white;">UTDR Mod/Programming Commissions</h1>
+        <p class="centered" style="color: rgb(255, 255, 255);">Want a mod made for you? Want me to join a mod team? Contact me!<br>Discord: xp360<br>Bluesky: <a href="https://bsky.app/profile/thenikorelm.com">@thenikorelm.com</a></p>
+        <h1 style="color: white;">FAQ</h1>
+        <p class="centered" style="color: rgb(255, 255, 255); margin-bottom: 0px;">
+            Q: How much do I need to pay? <br> A: It depends! Depending on how small it is, I might do it for free! For a smaller mod such as NG+, it would range from free to $20. For a larger mod such as 8 Modders, No Communication, that would run you about $50. However these prices are unfixed. <br> <br>
+            Q: How do you take payment? <br> A: Kofi. After a price is chosen I will open a commission on my account due to the variable price. <br> <br>
+            Q: How long do I need to wait? <br> A: Thats a tricky question to answer, since the complexity of the mod can make it varry from a day to a few months. Smaller mods like NG+ can be done in a few days, while 8 Modders, No Communication Pt 2 took me over a month to get my part working. I can give you a more accurate estimate once you tell me what it is you want! <br> <br>
+            Q: What all are you able to mod? <br> A: I specialize in Undertale but also have quite a but of experience modding Deltarune! I can mod essentially anything you want into the game. The only limitation is toby's awful code for some things. But for the most part, I can change whatever you want. Including: <br> <br>
+        </p>
+        <ul style="color: rgb(255, 255, 255); display: inline-block; margin-top: 0px;">
+            <li>Custom Battles/Bosses</li>
+            <li>Custom Sprites (Need to be provided to me)</li>
+            <li>Custom Items/Weapons</li>
+            <li>Custom Rooms (Sprites and Tilesets must be provided if applicable)</li>
+        </ul>
+        <p class="centered" style="color: rgb(255, 255, 255);">
+            Q: Can you join my mod team? <br> A: Maybe. I already have a lot of things on my plate but if I really like your project I would be open to joining! <br> <br>
+            Q: If I commission you, can you do art? <br> A: Unfortunately no, I cannot do art. However if needing to pay for art cuts into your budget a sizable ammount I am open to reducing the price. I also have people I can contact for art if you don't know anyone.<br> <br>
+            Q: Will you "Work for exposure" <br> A: No. However, depending on the scale of your mod, I may consider doing it for free If I feel like it. However asking for it to be free or asking to work for exposure will prevent you from getting it for free. <br> <br>
+            Q: Will you do NSFW content? <br> A: Absolutely not. I am a minor. Anyone contanting me with 18+ requests will be blocked. <br> <br>
+            Other Questions? CONTACT ME! <br> <br>
+            Slots Taken: 0/3
+            (Disclaimer, if a slot is open, it is not guaranteed I will take it depending on factors In my life or size of other comms, but feel free to ask!)
+        </p>
+    </div>
+</body>
 </html>
