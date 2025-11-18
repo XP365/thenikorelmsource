@@ -1,6 +1,10 @@
 h1,p,a,li {
     text-align: center;
     font-family: "Arial", serif;
+    
+}
+h1,p {
+    color: wheat;
 }
 .centered {
     text-align: center;
@@ -17,7 +21,7 @@ p,li {
     font-size: 1.5vw;
 }
 li {
-    text-align: left;
+    font-family: "Arial", serif;
 }
 
 @media screen and (max-width: 480px) {
@@ -26,4 +30,8 @@ li {
         margin-left: 0%;
         background-position: center;>
     }
+}
+
+body {
+    background-color: black;
 }
