@@ -1,0 +1,11 @@
+body{
+  padding: 25px;
+  background-color: pink;
+}
+h1, h2, p {
+  text-align: center;
+  font-family: "Helvetica";
+}
+a {
+    color: #ff7070;
+}
